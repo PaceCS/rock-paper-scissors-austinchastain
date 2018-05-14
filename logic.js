@@ -10,7 +10,7 @@ function playGame(userChoice) {
     console.log(/*Put text here*/);
 
     // Now choose a random number between 0 and 2
-    const rand = /*Fill in the code for a random value between 0 and 2*/;
+    const rand = Math.floor (Math.random( )*2)
 
     // Then use this random number to give the computer a choice
     const compChoice = options[rand];
